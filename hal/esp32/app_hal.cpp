@@ -2,11 +2,13 @@
 #include "app_hal.h"
 #include "lvgl.h"
 
+#include "pins.h"
+#include "tone.h"
 
 /* include only one display settings */
 // #include "displays/lgfx_wt32sc01_plus.hpp"
-#include "displays/lgfx_elecrow_3_5.hpp"
-
+//#include "displays/LGFX_ELECROW_3_5.hpp"
+#include "displays/LGFX_LOLIN_S3_MINI_1_69.hpp"
 
 static const uint32_t screenWidth = WIDTH;
 static const uint32_t screenHeight = HEIGHT;
